@@ -4,26 +4,17 @@ import Header from './components/Header';
 import Body from './components/Body';
 import Footer from './components/Footer';
 
+
 function App() {
+  
   return(
-    <div>
+    <div className ="center">
       <Header />
       <Body />
       <Footer />
     </div>
   )
-  return (
-      <div>
-          <input type="checkbox" />
-          example
-          <input type="checkbox" />
-          example
-          <input type="checkbox" />
-          example
-          <input type="checkbox" />
-          example
-      </div>
-  )
+
 }
 
 export default App;

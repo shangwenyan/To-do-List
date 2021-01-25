@@ -1,8 +1,8 @@
 function Header() {
     return (
-        <div>
-            this is header
-        </div>
+        <h1>
+            Today's todo list
+        </h1>
     )
   }
 
